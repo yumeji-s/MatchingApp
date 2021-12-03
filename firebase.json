@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "MatchingWeb",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
