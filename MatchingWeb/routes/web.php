@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-// use App\Http\Controllers\;
+use App\Http\Controllers\Test;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('index');
 });
 
-//Route::get('welcome', '');
+Route::get('welcome', [Test::class,'index']);
